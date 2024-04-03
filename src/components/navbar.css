@@ -1,0 +1,14 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    min-height: 4.375rem;
+    padding-inline: 1.875rem;
+    background: whitesmoke;
+    box-shadow: 0 -9px 18px black;
+}
+
+.nav--logo {
+    width: 5.125rem;
+}
