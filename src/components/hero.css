@@ -12,7 +12,9 @@ header {
 
 .hero--text {
     padding-block: 2rem;
-    padding-left: calc(33vw - 175px);
+    width: 100%;
+    max-width: 850px;
+    margin-inline: auto;
 }
 
 .hero--text h1 {
