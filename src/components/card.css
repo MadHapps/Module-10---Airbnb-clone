@@ -1,0 +1,58 @@
+.card-section {
+    margin-inline: auto;
+    display: flex;
+    gap: 1.125rem;
+    padding-inline: 1rem;
+    width: 100%;
+    max-width: 900px;
+    min-height: 100px;
+    font-size: .75rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: .18rem;
+    width: 9vw;
+    min-width: 176px;
+    max-width: 300px;
+    margin-block: 1rem;
+}
+
+.card img {
+    width: 100%;
+    border-radius: .75rem;
+}
+
+.card--rating {
+    display: flex;
+    align-items: center;
+    gap: .15em;
+    margin-top: .15em;
+}
+
+.card--rating > i {
+    color: #FE395C;
+}
+
+.card--rating > span {
+    color: gray;
+    font-size: 1em;
+}
+
+.rating_country::before {
+    content: "\2022";
+    margin-right: .15em;
+}
+
+.card--description {
+    width: 100%;
+}
+
+.card--price {
+    font-weight: bolder;
+}
+
+.card--price > span:last-of-type {
+    font-weight: normal;
+}
