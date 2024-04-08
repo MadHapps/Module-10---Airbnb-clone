@@ -12,7 +12,7 @@ header {
 
 .hero--text {
     padding-block: 2rem;
-    padding-left: calc(33vw - 100px);
+    padding-left: calc(33vw - 175px);
 }
 
 .hero--text h1 {
