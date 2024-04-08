@@ -15,6 +15,7 @@ function App() {
       title={data.title}
       description={data.description}
       price={data.price}
+      openSpots={data.openSpots}
     />
   })
 

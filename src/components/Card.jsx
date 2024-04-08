@@ -2,10 +2,18 @@ import "./card.css";
 // import coverImg from '../images/katie-zaferes.png'
 
 export default function Card(props) {
-  const { coverImg, stats, location, title, price } = props;
+  const { coverImg, stats, location, title, price, openSpots } = props;
+
+  let badgeText
+  if (openSpots === 0) {
+      badgeText = "SOLD OUT"
+  } else if (location === "Online") {
+      badgeText = "ONLINE"
+  }
 
   return (
     <div className="card">
+      {badgeText && <div className="card--badge">{badgeText}</div>}
       <img src={`../images/${coverImg}`} alt="" />
       <p className="card--rating">
         <i className="fa-sharp fa-solid fa-star"></i>

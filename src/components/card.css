@@ -18,6 +18,18 @@
     min-width: 176px;
     max-width: 300px;
     margin-block: 1rem;
+    position: relative;
+}
+
+.card--badge {
+    position: absolute;
+    inset: .4em .3em;
+    width: fit-content;
+    height: fit-content;
+    background-color: whitesmoke;
+    padding: 5px 7px;
+    border-radius: calc(.75rem - .4em) 2px 2px 2px;
+    font-weight: bold;
 }
 
 .card img {
