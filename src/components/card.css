@@ -7,7 +7,7 @@
     max-width: 900px;
     min-height: 100px;
     font-size: .75rem;
-    overflow: hidden;
+    overflow-x: auto;
 }
 
 .card {
