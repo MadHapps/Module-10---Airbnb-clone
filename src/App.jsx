@@ -9,13 +9,7 @@ function App() {
   const cards = dataList.map(data => {
     return <Card
       key={data.id} 
-      coverImg={data.coverImg}
-      stats={data.stats}
-      location={data.location}
-      title={data.title}
-      description={data.description}
-      price={data.price}
-      openSpots={data.openSpots}
+      cardData={data}
     />
   })
 

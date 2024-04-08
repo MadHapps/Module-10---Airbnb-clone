@@ -2,7 +2,7 @@ import "./card.css";
 // import coverImg from '../images/katie-zaferes.png'
 
 export default function Card(props) {
-  const { coverImg, stats, location, title, price, openSpots } = props;
+  const { coverImg, stats, location, title, price, openSpots } = props.cardData;
 
   let badgeText
   if (openSpots === 0) {
